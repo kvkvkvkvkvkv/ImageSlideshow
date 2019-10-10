@@ -14,28 +14,30 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Alamofire (4.7.3)
-  - AlamofireImage (3.4.1):
-    - Alamofire (~> 4.7)
-  - ImageSlideshow (1.6.0):
-    - ImageSlideshow/Core (= 1.6.0)
-  - ImageSlideshow/AFURL (1.6.0):
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - ImageSlideshow (1.8.0):
+    - ImageSlideshow/Core (= 1.8.0)
+  - ImageSlideshow/AFURL (1.8.0):
     - AFNetworking (~> 3.0)
     - ImageSlideshow/Core
-  - ImageSlideshow/Alamofire (1.6.0):
+  - ImageSlideshow/Alamofire (1.8.0):
     - AlamofireImage (~> 3.0)
     - ImageSlideshow/Core
-  - ImageSlideshow/Core (1.6.0)
-  - ImageSlideshow/Kingfisher (1.6.0):
+  - ImageSlideshow/Core (1.8.0)
+  - ImageSlideshow/Kingfisher (1.8.0):
     - ImageSlideshow/Core
     - Kingfisher (> 3.0)
-  - ImageSlideshow/SDWebImage (1.6.0):
+  - ImageSlideshow/SDWebImage (1.8.0):
     - ImageSlideshow/Core
-    - SDWebImage (< 5.0, >= 3.7)
-  - Kingfisher (4.10.0)
-  - SDWebImage (4.4.2):
-    - SDWebImage/Core (= 4.4.2)
-  - SDWebImage/Core (4.4.2)
+    - SDWebImage (>= 3.7)
+  - Kingfisher (5.8.1):
+    - Kingfisher/Core (= 5.8.1)
+  - Kingfisher/Core (5.8.1)
+  - SDWebImage (5.2.0):
+    - SDWebImage/Core (= 5.2.0)
+  - SDWebImage/Core (5.2.0)
 
 DEPENDENCIES:
   - ImageSlideshow (from `../`)
@@ -45,7 +47,7 @@ DEPENDENCIES:
   - ImageSlideshow/SDWebImage (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - Alamofire
     - AlamofireImage
@@ -58,12 +60,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
-  ImageSlideshow: 17a44fe50c43779149f83c3e369a3d9701f06d65
-  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
-  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  ImageSlideshow: ab1a359a10b56d76afa52598b705b2df5d525ac9
+  Kingfisher: de969e451c81ca6c07a454bc36fea84b8b08c3c7
+  SDWebImage: 609192dcf3898c910a2848032372ead951e66364
 
-PODFILE CHECKSUM: 9f5f0235fb1728554054ee3ff7128ff5d4729418
+PODFILE CHECKSUM: 46015634277c8c8bfd78d1b363e41ea2dfd179d9
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.1
